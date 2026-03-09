@@ -42,18 +42,18 @@
 
 .card__content>*+* {
     position: relative;
+}
 
-    &::after {
-        content: '';
-        position: absolute;
-        top: -16px;
-        left: 0;
-        display: block;
-        width: 40px;
-        height: 1px;
-        background-color: #e5e7eb;
-        border: 1px solid #e5e7eb;
-    }
+.card__content>*+*::after {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: #e5e7eb;
+    border: 1px solid #e5e7eb;
 }
 
 .card__subtitle {
@@ -85,13 +85,15 @@
     font-size: 14px;
     line-height: 143%;
 
-    strong {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 156%;
-        color: #374151;
-    }
 }
+
+.card__price strong {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #374151;
+}
+
 
 .card__rating {
     display: flex;

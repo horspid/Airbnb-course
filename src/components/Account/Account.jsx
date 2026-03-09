@@ -1,13 +1,13 @@
 import navIcon from './nav.svg';
-import './style.scss';
+import styles from './style.module.css'
 
 const Account = () => {
 	return (
-		<button className="account">
-			<div className="account__nav-icon">
+		<button className={styles.account}>
+			<div className={styles['account__nav-icon']}>
 				<img src={navIcon} alt="Nav" />
 			</div>
-			<div className="account__avatar">
+			<div className={styles.account__avatar}>
 				<img src="./img/icons/user-avatar.svg" alt="User avatar" />
 			</div>
 		</button>

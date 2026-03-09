@@ -1,5 +1,5 @@
 import { IconStar, IconLike } from '@assets/Icons';
-import styles from './styles.module.scss';
+import styles from './style.module.css';
 
 const ListingCard = ({ data }) => {
     const {
@@ -17,7 +17,7 @@ const ListingCard = ({ data }) => {
     const detailsOutput = details.join(' · ');
 
     return (
-        <div className={styles.card}>
+        <article className={styles.card}>
             <div className={styles["card__img-wrapper"]}>
                 <img src={image} alt="" className={styles.card__img} />
             </div>
@@ -46,7 +46,7 @@ const ListingCard = ({ data }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     )
 }
 

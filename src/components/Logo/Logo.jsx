@@ -1,11 +1,13 @@
-import logo from './logo.svg'
-import './style.scss';
+import { Link } from 'react-router';
+import logo from './logo.svg';
+
+import './style.module.css';
 
 const Logo = () => {
 	return (
-		<a href="#">
+		<Link to={"/"}>
 			<img src={logo} alt="" />
-		</a>
+		</Link>
 	);
 }
 

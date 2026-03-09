@@ -1,6 +1,6 @@
-import styles from './style.module.scss';
+import styles from './style.module.css';
 
-const CategoryItem = ({title, img}) => {
+const CategoryItem = ({ title, img }) => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.img}>

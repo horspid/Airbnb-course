@@ -1,28 +1,27 @@
-import Categories from '../Categories/Categories';
-import Logo from '../Logo/Logo';
-import SearchBar from '../SearchBar/SearchBar';
-import UserMenu from '../UserMenu/UserMenu';
-import './style.scss';
+import Logo from '@components/Logo/Logo';
+import SearchBar from '@components/SearchBar/SearchBar';
+import UserMenu from '@components/UserMenu/UserMenu';
+import Container from '@layouts/Container/Container';
+
+import styles from './style.module.css';
 
 function Header() {
 	return (
-		<div className="header-wrapper">
-			<header className="header">
-				<div className="container">
-					<div className="header__row">
-						<div className="header__logo">
-							<Logo />
-						</div>
-						<div className="header__search">
-							<SearchBar />
-						</div>
-						<div className="header__user">
-							<UserMenu />
-						</div>
+		<header className={styles.header}>
+			<Container>
+				<div className={styles.header__row}>
+					<div className={styles.header__logo}>
+						<Logo />
+					</div>
+					<div className={styles.header__search}>
+						<SearchBar />
+					</div>
+					<div className={styles.header__user}>
+						<UserMenu />
 					</div>
 				</div>
-			</header>
-		</div>
+			</Container>
+		</header >
 	);
 }
 

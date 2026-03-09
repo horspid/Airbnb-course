@@ -1,11 +1,10 @@
 .card {
 	position: relative;
-	// max-width: 400px;
+}
 
-	&:hover {
-		opacity: 0.8;
-		transition: all 0.2s ease-in;
-	}
+.card:hover {
+	opacity: 0.8;
+	transition: all 0.2s ease-in;
 }
 
 .link {
@@ -49,7 +48,6 @@
 	display: flex;
 	gap: 4px;
 	align-items: center;
-
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 127%;
@@ -79,7 +77,9 @@
 	line-height: 127%;
 	color: #222;
 
-	strong {
-		font-weight: 600;
-	}
+
+}
+
+.practive stong {
+	font-weight: 600;
 }

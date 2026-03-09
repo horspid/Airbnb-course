@@ -1,18 +1,19 @@
-import Account from '../Account/Account';
-import Link from '../Link/Link';
+import Account from '@components/Account/Account';
+import Link from '@components/Link/Link';
 import globeIcon from './globe.svg'
-import './style.scss';
+
+import styles from './style.module.css';
 
 const UserMenu = () => {
 	return (
-		<div className="user-menu">
-			<div className="user-menu__home">
+		<div className={styles['user-menu']}>
+			<div className={styles['user-menu__home']}>
 				<Link text="Airbnb your home" />
 			</div>
-			<div className="user-menu__local">
+			<div className={styles['user-menu__local']}>
 				<Link icon={globeIcon} />
 			</div>
-			<div className="user-menu__user">
+			<div className={styles['user-menu__user']}>
 				<Account />
 			</div>
 		</div>

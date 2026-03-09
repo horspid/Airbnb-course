@@ -1,9 +1,9 @@
 import filterIcon from './filter.svg';
-import './style.scss';
+import styles from './style.module.css';
 
 const FilterBtn = () => {
 	return (
-		<button className="filter-btn">
+		<button className={styles['filter-btn']}>
 			<img src={filterIcon} alt="Filter" />
 			Filters
 		</button>

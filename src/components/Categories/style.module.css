@@ -1,5 +1,4 @@
-.categories {
-}
+.categories {}
 
 .categories__row {
 	display: flex;
@@ -13,5 +12,4 @@
 	gap: 32px;
 }
 
-.categories__filter {
-}
+.categories__filter {}

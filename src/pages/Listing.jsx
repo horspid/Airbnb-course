@@ -1,13 +1,19 @@
-import ListingCard from '../components/ListingCard/ListingCard';
-import styles from './styles/Listing.module.css'
+import styles from './styles/listing.module.css';
 
-import data from '@data/listing.json'
+import ListingCard from '../components/ListingCard/ListingCard';
+import Container from '@layouts/Container/Container';
+
+import data from '@data/listing.json';
 
 const Listing = () => {
     return (
         <>
-            <div className={styles.options}>Options</div>
-            <div className="container">
+            <div className={styles.options}>
+                <Container>
+                    Options
+                </Container>
+            </div>
+            <Container>
                 <h1>Listing Page</h1>
                 <div className={styles.grid}>
                     <div className={styles.listing}>
@@ -20,7 +26,7 @@ const Listing = () => {
                     </div>
                     <div className="map">Map</div>
                 </div>
-            </div>
+            </Container>
         </>
     );
 }
