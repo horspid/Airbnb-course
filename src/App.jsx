@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router';
 
+import './styles/app.css';
+
 // Pages
 import Home from './pages/Home';
 import Listing from './pages/Listing';
