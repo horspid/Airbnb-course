@@ -1,16 +1,19 @@
-import CategoryItem from '../CategoryItem/CategoryItem';
-import FilterBtn from '../FilterBtn/FilterBtn';
+import styles from './style.module.css'
 
-import categoriesData from './../../data/categories.json';
+import CategoryItem from '@components/CategoryItem/CategoryItem';
+import FilterBtn from '@components/FilterBtn/FilterBtn';
+import Container from '@layouts/Container/Container'
 
-import './style.scss';
+
+import categoriesData from '@data/categories.json';
+
 
 const Categories = () => {
 	return (
-		<div className="categories">
-			<div className="container">
-				<div className="categories__row">
-					<div className="categories__list">
+		<div className={styles.categories}>
+			<Container>
+				<div className={styles.categories__row}>
+					<div className={styles.categories__list}>
 						{categoriesData.map((cat, index) => (
 							<CategoryItem
 								title={cat.title}
@@ -24,11 +27,11 @@ const Categories = () => {
 							img="./img/categories/02.svg"
 						/> */}
 					</div>
-					<div className="categories__filter">
+					<div className={styles.categories__filter}>
 						<FilterBtn />
 					</div>
 				</div>
-			</div>
+			</Container>
 		</div>
 	);
 };

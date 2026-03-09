@@ -1,8 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router';
 
-// Components
-
-
 // Pages
 import Home from './pages/Home';
 import Listing from './pages/Listing';

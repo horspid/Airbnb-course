@@ -1,22 +1,22 @@
-import './style.scss';
-import searchIcon from './search.svg'
-import Link from '../Link/Link';
+import styles from './style.module.css';
+import searchIcon from './search.svg';
+import Link from '@components/Link/Link';
 
 const SearchBar = () => {
 	return (
-		<div className="searchbar">
-			<div className="searchbar__btns-wrapper">
-				<div className="searchbar__btn">
+		<div className={styles.searchbar}>
+			<div className={styles["searchbar__btns-wrapper"]}>
+				<div className={styles.searchbar__btn}>
 					<Link text="Anywhere" />
 				</div>
-				<div className="searchbar__btn">
+				<div className={styles.searchbar__btn}>
 					<Link text="Any week" />
 				</div>
-				<div className="searchbar__btn">
+				<div className={styles.searchbar__btn}>
 					<Link text="Add guests" style="light" />
 				</div>
 			</div>
-			<button className="searchbar__btn-search">
+			<button className={styles["searchbar__btn-search"]}>
 				<img src={searchIcon} alt="Search" />
 			</button>
 		</div>

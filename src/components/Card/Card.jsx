@@ -1,5 +1,5 @@
 import starIcon from './star.svg';
-import styles from './style.module.scss';
+import styles from './style.module.css';
 
 const Card = ({ data }) => {
 	const {
