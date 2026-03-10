@@ -5,7 +5,7 @@ import './styles/app.css';
 // Pages
 import Home from './pages/Home';
 import Listing from './pages/Listing';
-import Item from './pages/Item';
+import ItemPage from './pages/ItemPage';
 import Layout from './layouts/Layout';
 
 
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: 'item',
-				Component: Item
+				Component: ItemPage
 			}
 		]
 	}
