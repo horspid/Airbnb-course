@@ -1,9 +1,9 @@
-import styles from "./styles/listing.module.css";
+import styles from "./styles/listingPage.module.css";
 
-import ListingCard from "../components/ListingCard/ListingCard";
+import { ListingCard } from "@shared";
 import Container from "@layouts/Container/Container";
 
-import data from "@data/listing.json";
+import data from "@app/model/listing.json";
 
 export const ListingPage = () => {
 	return (

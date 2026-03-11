@@ -3,10 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import "./styles/app.css";
 
 // Pages
-import Home from "../pages/HomePage";
-import Listing from "../pages/Listing";
-import ItemPage from "../pages/ItemPage";
-import Layout from "../layouts/Layout";
+import Layout from "@/layouts/Layout";
+import { HomePage, ListingPage, HotelPage } from "@pages";
 
 const router = createBrowserRouter([
 	{
@@ -15,20 +13,20 @@ const router = createBrowserRouter([
 		children: [
 			{
 				index: true,
-				Component: Home,
+				Component: HomePage,
 			},
 			{
 				path: "listing",
-				Component: Listing,
+				Component: ListingPage,
 			},
 			{
 				path: "item",
-				Component: ItemPage,
+				Component: HotelPage,
 			},
 		],
 	},
 ]);
 
-export function App() {
+export default function App() {
 	return <RouterProvider router={router} />;
 }

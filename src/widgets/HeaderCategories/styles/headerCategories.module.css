@@ -1,0 +1,21 @@
+.categories {
+}
+
+.categories__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+
+	overflow-y: auto;
+}
+
+.categories__list {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.categories__filter {
+	flex-shrink: 0;
+}

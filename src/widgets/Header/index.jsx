@@ -1,6 +1,6 @@
-import Logo from "@components/Logo/Logo";
-import SearchBar from "@components/SearchBar/SearchBar";
-import UserMenu from "@components/UserMenu/UserMenu";
+import { Logo, SearchBar } from "@shared";
+
+import { UserMenu } from "@features";
 import Container from "@layouts/Container/Container";
 
 import styles from "./styles/index.module.css";

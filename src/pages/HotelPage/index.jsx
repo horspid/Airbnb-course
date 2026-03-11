@@ -1,9 +1,7 @@
-import styles from "./styles/index.module.css";
+import styles from "./styles/hotelPage.module.css";
 import Container from "@/layouts/Container/Container";
 
-import ProductHeader from "./ui/ProductHeader";
-import ProductImages from "./ui/ProductImages";
-import ProductDescription from "./ui/ProductDescription";
+import { ProductHeader, ProductImages } from "./ui";
 
 export const HotelPage = () => {
 	return (
@@ -11,7 +9,6 @@ export const HotelPage = () => {
 			<div className={styles.product}>
 				<ProductHeader />
 				<ProductImages />
-				<ProductDescription />
 			</div>
 		</Container>
 	);

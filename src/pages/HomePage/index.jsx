@@ -1,11 +1,14 @@
-import Card from "@components/Card/Card";
-import Categories from "@components/Categories/Categories";
-import cardsData from "@data/data.json";
+import { Card } from "@shared";
+
+import { HeaderCategories } from "@widgets";
+
+import cardsData from "@app/model/data.json";
 import Container from "@layouts/Container/Container";
+
 export const HomePage = () => {
 	return (
 		<>
-			<Categories />
+			<HeaderCategories />
 			<main className="main">
 				<Container>
 					<div className="main__cards">
