@@ -1,0 +1,25 @@
+.product__options {
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product__info {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.product__actions {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.product__awards {
+	color: #6b7280;
+}
+
+.product__location {
+	color: #6b7280;
+}
