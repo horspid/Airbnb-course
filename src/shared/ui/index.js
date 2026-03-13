@@ -7,3 +7,5 @@ export { ListingCard } from "./ListingCard";
 export { Logo } from "./Logo";
 export { SearchBar } from "./SearchBar";
 export { Container } from "./Container";
+export { Avatar } from "./Avatar";
+export { ProductSpec } from "./ProductSpec";

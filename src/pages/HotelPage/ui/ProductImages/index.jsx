@@ -1,4 +1,4 @@
-import styles from "./styles/index.module.css";
+import styles from "./styles/productImages.module.css";
 
 export const ProductImages = () => {
 	const images = [
