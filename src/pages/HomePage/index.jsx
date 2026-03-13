@@ -1,9 +1,8 @@
-import { Card } from "@shared/ui";
+import { Card, Container } from "@shared/ui";
 
 import { HeaderCategories } from "@widgets";
 
 import cardsData from "@app/model/data.json";
-import Container from "@layouts/Container/Container";
 
 export const HomePage = () => {
 	return (

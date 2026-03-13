@@ -3,7 +3,7 @@ import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { cva } from "class-variance-authority";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 import { Separator } from "@/shared/ui/Shadcn/ui/separator";
 
 function ItemGroup({ className, ...props }) {

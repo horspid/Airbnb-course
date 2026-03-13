@@ -1,8 +1,7 @@
 import styles from "./styles/headerCategories.module.css";
 
 import { CategoryItem } from "./ui";
-import { FilterBtn } from "@shared/ui";
-import Container from "@layouts/Container/Container";
+import { FilterBtn, Container } from "@shared/ui";
 
 import categoriesData from "@app/model/categories.json";
 

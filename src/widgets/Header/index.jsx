@@ -1,7 +1,6 @@
-import { Logo, SearchBar } from "@shared/ui";
+import { Logo, SearchBar, Container } from "@shared/ui";
 
 import { UserMenu } from "@features";
-import Container from "@layouts/Container/Container";
 
 import styles from "./styles/index.module.css";
 

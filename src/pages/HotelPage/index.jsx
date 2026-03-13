@@ -1,5 +1,6 @@
 import styles from "./styles/hotelPage.module.css";
-import Container from "@/layouts/Container/Container";
+
+import { Container } from "@shared/ui";
 
 import { ProductHeader, ProductImages } from "./ui";
 

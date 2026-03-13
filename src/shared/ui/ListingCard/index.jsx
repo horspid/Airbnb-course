@@ -1,4 +1,4 @@
-import { IconStar, IconLike } from "@assets/Icons";
+import { IconStar, IconLike } from "@shared/ui/Icons";
 import styles from "./styles/listingCard.module.css";
 
 export const ListingCard = ({ data }) => {

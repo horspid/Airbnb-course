@@ -1,5 +1,5 @@
 import styles from "./styles/index.module.css";
-import { IconStar } from "@/assets/Icons";
+import { IconStar } from "@shared/ui/Icons";
 import { Button } from "@shared/ui";
 
 export const ProductHeader = () => {

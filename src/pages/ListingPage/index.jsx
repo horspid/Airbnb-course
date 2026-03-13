@@ -1,7 +1,6 @@
 import styles from "./styles/listingPage.module.css";
 
-import { ListingCard } from "@shared/ui";
-import Container from "@layouts/Container/Container";
+import { ListingCard, Container } from "@shared/ui";
 
 import data from "@app/model/listing.json";
 
