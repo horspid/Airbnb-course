@@ -4,7 +4,7 @@ import { useRender } from "@base-ui/react/use-render";
 import { cva } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
-import { Separator } from "@/shared/Shadcn/ui/separator";
+import { Separator } from "@/shared/ui/Shadcn/ui/separator";
 
 function ItemGroup({ className, ...props }) {
 	return (

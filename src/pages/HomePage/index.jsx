@@ -1,4 +1,4 @@
-import { Card } from "@shared";
+import { Card } from "@shared/ui";
 
 import { HeaderCategories } from "@widgets";
 

@@ -1,5 +1,5 @@
 import styles from "./styles/searchBar.module.css";
-import { Link } from "@shared";
+import { Link } from "@shared/ui";
 
 export const SearchBar = () => {
 	return (

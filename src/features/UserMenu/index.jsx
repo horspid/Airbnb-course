@@ -1,4 +1,4 @@
-import { Link, Account } from "@shared";
+import { Link, Account } from "@shared/ui";
 import globeIcon from "./assets/globe.svg";
 
 import styles from "./styles/userMenu.module.css";

@@ -1,4 +1,4 @@
-import { Logo, SearchBar } from "@shared";
+import { Logo, SearchBar } from "@shared/ui";
 
 import { UserMenu } from "@features";
 import Container from "@layouts/Container/Container";
