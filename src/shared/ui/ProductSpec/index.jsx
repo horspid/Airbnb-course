@@ -6,7 +6,7 @@ import {
 	ItemDescription,
 } from "@shared/ui";
 
-export const ProductSpec = ({ specs }) => {
+export const ProductSpec = ({ specs, classNames }) => {
 	return (
 		<Item>
 			{specs.path && (
@@ -15,9 +15,7 @@ export const ProductSpec = ({ specs }) => {
 				</ItemMedia>
 			)}
 			<ItemContent>
-				<ItemTitle className={"text-base font-medium"}>
-					{specs.title}
-				</ItemTitle>
+				<ItemTitle className={classNames}>{specs.title}</ItemTitle>
 				{specs.desc && (
 					<ItemDescription className={"text-sm"}>
 						{specs.desc}

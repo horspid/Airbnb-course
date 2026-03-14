@@ -25,7 +25,7 @@ export const ProductSpecifications = () => {
 	];
 
 	return (
-		<div className="flex flex-col gap-4 pt-6 pb-6 border-b">
+		<div className="flex flex-col gap-4 pt-8 pb-8 border-b">
 			{specItems.map((item, index) => (
 				<ProductSpec specs={item} key={index} />
 			))}
