@@ -1,6 +1,6 @@
 export * from "./Shadcn";
 export { Account } from "./Account";
-export { Card } from "./Card";
+export { ProductCard } from "./ProductCard";
 export { FilterBtn } from "./FilterBtn";
 export { Link } from "./Link";
 export { ListingCard } from "./ListingCard";
@@ -9,3 +9,4 @@ export { SearchBar } from "./SearchBar";
 export { Container } from "./Container";
 export { Avatar } from "./Avatar";
 export { ProductSpec } from "./ProductSpec";
+export { CustomCalendar } from "./CustomCalendar";

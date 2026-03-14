@@ -1,6 +1,6 @@
 import styles from "./styles/card.module.css";
 
-export const Card = ({ data }) => {
+export const ProductCard = ({ data }) => {
 	const {
 		title,
 		desc,

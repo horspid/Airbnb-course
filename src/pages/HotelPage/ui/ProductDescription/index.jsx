@@ -5,6 +5,7 @@ import { ProductSpecifications } from "../ProductSpecifications";
 import { ProductAbout } from "../ProductAbout";
 import { ProductBedroom } from "../ProductBedroom";
 import { ProductAdvantages } from "../ProductAdvantages";
+import { ProductDates } from "../ProductDates";
 
 export const ProductDescription = () => {
 	return (
@@ -15,6 +16,7 @@ export const ProductDescription = () => {
 				<ProductAbout />
 				<ProductBedroom />
 				<ProductAdvantages />
+				<ProductDates />
 			</div>
 			<div className={`${styles["product-checkout"]}`}></div>
 		</div>
