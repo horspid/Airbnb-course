@@ -11,11 +11,11 @@ export default defineConfig({
 			"@app": path.resolve(__dirname, "src/app"),
 			"@shared": path.resolve(__dirname, "src/shared"),
 			"@widgets": path.resolve(__dirname, "src/widgets"),
+			"@entities": path.resolve(__dirname, "src/entities"),
 			"@features": path.resolve(__dirname, "src/features"),
 			"@pages": path.resolve(__dirname, "src/pages"),
 			"@data": path.resolve(__dirname, "src/data"),
 			"@assets": path.resolve(__dirname, "src/assets"),
-			"@layouts": path.resolve(__dirname, "src/layouts"),
 		},
 	},
 });

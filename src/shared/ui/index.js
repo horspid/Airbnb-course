@@ -1,4 +1,5 @@
 export * from "./Shadcn";
+export * from "./Icons";
 export { Account } from "./Account";
 export { ProductCard } from "./ProductCard";
 export { FilterBtn } from "./FilterBtn";

@@ -1,5 +1,7 @@
 export { Button } from "@/shared/ui/Shadcn/ui/button";
 export { Calendar } from "@/shared/ui/Shadcn/ui/calendar";
+export { Field, FieldLabel } from "@shared/ui/Shadcn/ui/field";
+export { Progress } from "@/shared/ui/Shadcn/ui/progress";
 export {
 	Item,
 	ItemGroup,

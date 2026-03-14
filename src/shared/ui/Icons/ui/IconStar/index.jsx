@@ -17,6 +17,26 @@ export const IconStar = ({ size }) => {
 				/>
 			</svg>
 		);
+	}
+	if (size === "lg") {
+		return (
+			<svg
+				width="32"
+				height="32"
+				viewBox="0 0 32 32"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M15.9999 6.33325L18.3333 13.6666H25.6666L19.6666 18.3333L21.6666 25.6666L15.9999 20.9999L10.3333 25.6666L12.3333 18.3333L6.33325 13.6666H13.6666L15.9999 6.33325Z"
+					fill="#DE3151"
+					stroke="#DE3151"
+					strokeWidth="1.5"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+				/>
+			</svg>
+		);
 	} else
 		return (
 			<svg

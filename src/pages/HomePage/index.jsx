@@ -1,4 +1,4 @@
-import { Card, Container } from "@shared/ui";
+import { ProductCard, Container } from "@shared/ui";
 
 import { HeaderCategories } from "@widgets";
 
@@ -12,7 +12,7 @@ export const HomePage = () => {
 				<Container>
 					<div className="main__cards">
 						{cardsData.map((item, index) => {
-							return <Card data={item} key={index} />;
+							return <ProductCard data={item} key={index} />;
 						})}
 					</div>
 				</Container>
