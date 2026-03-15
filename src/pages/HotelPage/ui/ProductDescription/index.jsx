@@ -7,6 +7,7 @@ import { ProductBedroom } from "../ProductBedroom";
 import { ProductAdvantages } from "../ProductAdvantages";
 import { ProductDates } from "../ProductDates";
 import { Reviews } from "@widgets";
+import { MapLeaflet } from "@widgets";
 
 export const ProductDescription = () => {
 	return (
@@ -23,6 +24,7 @@ export const ProductDescription = () => {
 				<div className={`${styles["product-checkout"]}`}></div>
 			</div>
 			<Reviews />
+			<MapLeaflet />
 		</>
 	);
 };
